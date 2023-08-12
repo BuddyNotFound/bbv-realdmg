@@ -8,3 +8,4 @@ A traightforward standalone tool designed to simulate accurate vehicle damage. I
 https://streamable.com/715p75
 > Discord
 http://discord.bbv.world
+<a href='https://ko-fi.com/G2G0N78P7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
