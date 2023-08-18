@@ -26,5 +26,7 @@ CreateThread(function()
                 end
             end
         end
+    else
+        Main.Loop = 2500
     end
 end)
