@@ -1,6 +1,6 @@
 Config = {}
 
-Config.BreakSpeed = 90  
+Config.BreakSpeed = 90
 Config.NoBrake = { -- vehicles classes that this will not apply to
     [8] = true,
     [9] = true,
