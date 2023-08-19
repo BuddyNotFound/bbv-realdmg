@@ -25,8 +25,8 @@ CreateThread(function()
                     SetVehicleTyreBurst(veh,chance,false)
                 end
             end
+        else
+            Main.Loop = 2500
         end
-    else
-        Main.Loop = 2500
     end
 end)
