@@ -15,14 +15,17 @@ CreateThread(function()
                 if HasEntityCollidedWithAnything(veh) and vehSpeed >= Config.BreakSpeed  then
                     local chance = math.random(0,3)
                     BreakOffVehicleWheel(veh,chance,true,false,true,false)
+                    Main.Loop = 2500
                 end
                 if HasEntityCollidedWithAnything(veh) and vehSpeed >= Config.BreakSpeed - 10  then
                     local chance = math.random(0,3)
                     SetVehicleTyreBurst(veh,chance,true)
+                    Main.Loop = 2500
                 end
                 if HasEntityCollidedWithAnything(veh) and vehSpeed >= Config.BreakSpeed - 30  then
                     local chance = math.random(0,3)
                     SetVehicleTyreBurst(veh,chance,false)
+                    Main.Loop = 2500
                 end
             end
         else
