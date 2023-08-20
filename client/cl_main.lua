@@ -4,9 +4,9 @@ Main = {
 }
 
 CreateThread(function()
-    Main.Ped = Main.me()
     while true do
         Wait(Main.Loop)
+        Main.Ped = Main.me()
         if IsPedInAnyVehicle(Main.Ped, false) then
             local veh = GetVehiclePedIsIn(Main.Ped,false)
             if GetPedInVehicleSeat(veh, -1) ~= 0 and not Config.NoBrake[GetVehicleClass(veh)] then
